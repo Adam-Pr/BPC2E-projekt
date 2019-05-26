@@ -89,7 +89,8 @@ function pushbutton2_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 current = str2double(get(handles.text8, 'String'));                     % naète hodnotu ve string v textu8, pøevádí øetìzec z textu8 na èíslo s desetinou èárkou, hodnota promìnné current je hodnota ve string v textu8
 if (current > 0) previous = current - 1;                                % podmínka, díky které nejde listovat do menšího øádku než je 0
-else previous = current; end
+else previous = current; 
+end
 set(handles.text8, 'String', previous);                                 % nastavení obsahu z promìnné previous do stringu v textu8
 load(handles);                                                          % naète hodnoty 
 
