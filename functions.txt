@@ -1,0 +1,5 @@
+y=~a&~d|~a&~b&~d|b&~c&~d|a&~b&~c&d
+y=a&c|~a&~c&~d|~b&c&d|~a&b&~c
+y=a&~b&d|a&~b&c|a&c&d|~a&~b&~c&~d|~a&b&~c&d|a&b&~c&~d
+y=xor(and(a,b),or(not(c),d))
+y=(~c|~d)&(a|b|~c)&(~b|c|d)&(~a|b|c)
